@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>سیستم مدیریت مشتریان – فروشگاه موبایل</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside>
+      <div class="brand"><i>📱</i>مدیریت مشتریان</div>
+      <nav id="nav"></nav>
+      <div class="foot">
+        داده‌ها در همین مرورگر ذخیره می‌شوند<br /><button
+          class="btn d s"
+          id="reset"
+          style="padding: 4px 0"
+        >
+          حذف همه داده‌ها
+        </button>
+      </div>
+    </aside>
+    <main>
+      <div class="top">
+        <h1 id="ttl"></h1>
+        <input class="in" id="q" type="search" placeholder="جستجو…" /><button
+          class="btn"
+          id="add"
+        ></button>
+      </div>
+      <div id="view"></div>
+    </main>
+    <dialog id="dlg"></dialog>
+    <div id="toast"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
